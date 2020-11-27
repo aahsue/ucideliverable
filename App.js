@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Helmet from "react-helmet";
 import { useMediaQuery } from 'react-responsive';
 var pete = "";
 var formPos = "";
@@ -76,7 +75,7 @@ export default function App() {
         <button style={subButton}>Submit</button>
 
         <img
-          src= "/images/petr.png"
+          src= "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b9a7595c-79f0-4c8c-863b-8b2cec78fcba/petr.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201127T203208Z&X-Amz-Expires=86400&X-Amz-Signature=0b929eeffbc2da04dea4d3b448079677718166f9b542897c0d7229a618c8e00c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22petr.png%22"
           class = {pete}
           style={{ width: 150, height: 200 }}
         />
@@ -125,7 +124,7 @@ export default function App() {
       <button style={subButton}>Submit</button>
 
       <img
-        src="images/petr.png"
+        src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b9a7595c-79f0-4c8c-863b-8b2cec78fcba/petr.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201127T203208Z&X-Amz-Expires=86400&X-Amz-Signature=0b929eeffbc2da04dea4d3b448079677718166f9b542897c0d7229a618c8e00c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22petr.png%22"
         class = {pete}
         style={{ width: 150, height: 200 }}
       />
