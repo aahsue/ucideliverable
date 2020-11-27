@@ -76,7 +76,7 @@ export default function App() {
         <button style={subButton}>Submit</button>
 
         <img
-          src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b9a7595c-79f0-4c8c-863b-8b2cec78fcba/petr.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201126T064558Z&X-Amz-Expires=86400&X-Amz-Signature=54f04562f05729b75c844f6af26fa24ee8813f03ec40b7051ba22fc9fd2d5d05&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22petr.png%22"
+          src= "/images/petr.png"
           class = {pete}
           style={{ width: 150, height: 200 }}
         />
@@ -125,7 +125,7 @@ export default function App() {
       <button style={subButton}>Submit</button>
 
       <img
-        src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b9a7595c-79f0-4c8c-863b-8b2cec78fcba/petr.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201126T064558Z&X-Amz-Expires=86400&X-Amz-Signature=54f04562f05729b75c844f6af26fa24ee8813f03ec40b7051ba22fc9fd2d5d05&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22petr.png%22"
+        src="images/petr.png"
         class = {pete}
         style={{ width: 150, height: 200 }}
       />
